@@ -33,22 +33,22 @@ export const Pane = styled.div({
 })
 
 export const Title = styled.h1({
-    fontSize: '50px',
+    fontSize: '40px',
     lineHeight: '1.1',
     marginBottom: '8px',
 
     [`@media (max-width: 600px)`]: {
-        fontSize: '35px',
+        fontSize: '25px',
     },
 })
 
 export const SubTitle = styled.h3({
-    fontSize: '26px',
+    fontSize: '20px',
     fontWeight: 'normal',
-    lineHeight: 'normal',
+    lineHeight: '1.3',
 
     [`@media (max-width: 600px)`]: {
-        fontSize: '18px',
+        fontSize: '12px',
     },
 })
 
